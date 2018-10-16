@@ -1,0 +1,10 @@
+army.cmo :
+army.cmx :
+dalek.cmo : people.cmo
+dalek.cmx : people.cmx
+doctor.cmo : people.cmo
+doctor.cmx : people.cmx
+main.cmo : people.cmo doctor.cmo dalek.cmo army.cmo
+main.cmx : people.cmx doctor.cmx dalek.cmx army.cmx
+people.cmo :
+people.cmx :
