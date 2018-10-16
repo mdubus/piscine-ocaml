@@ -1,6 +1,24 @@
 # piscine-ocaml
+
+```
+
 Learn OCaml in 2 intensive weeks !
 
+        _
+    .--' |
+   /___^ |     .--.
+       ) |    /    \
+      /  |  /`      '.
+     |   '-'    /     \
+     \         |      |\
+      \    /   \      /\|
+       \  /'----`\   /
+       |||       \\ |
+       ((|        ((|
+       |||        |||
+      //_(       //_(
+
+```
 ## day00 [[subject]](https://github.com/mdubus/piscine-ocaml/blob/master/d00/d00.en.pdf) [100/100]
 
 Basic syntaxes and semantics
