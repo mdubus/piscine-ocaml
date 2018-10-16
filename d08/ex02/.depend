@@ -1,0 +1,8 @@
+alkane.cmo :
+alkane.cmx :
+atom.cmo :
+atom.cmx :
+main.cmo : alkane.cmo
+main.cmx : alkane.cmx
+molecules.cmo : atom.cmo
+molecules.cmx : atom.cmx
