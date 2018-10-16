@@ -19,6 +19,26 @@ Learn OCaml in 2 intensive weeks !
       //_(       //_(
 
 ```
+
+Run the exercices in the interpreter : 
+```
+ocaml <file>
+```
+
+Compile it in native :
+```
+ocamlopt <file>
+./a.out
+```
+
+Compile it in bytecode :
+```
+ocamlc <file>
+./a.out
+```
+
+... or "make" if there is a Makefile !
+
 ## day00 [[subject]](https://github.com/mdubus/piscine-ocaml/blob/master/d00/d00.en.pdf) [100/100]
 
 Basic syntaxes and semantics
