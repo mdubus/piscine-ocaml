@@ -1,0 +1,8 @@
+main.cmo : utils.cmo pikachu.cmo
+main.cmx : utils.cmx pikachu.cmx
+pikachu.cmo : utils.cmo tama.cmo
+pikachu.cmx : utils.cmx tama.cmx
+tama.cmo :
+tama.cmx :
+utils.cmo :
+utils.cmx :
