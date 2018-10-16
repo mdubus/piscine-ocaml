@@ -83,6 +83,6 @@ Monoids and Monads
 
 48 hours to build a 2-dimensional Tic-Tac-Toe
 
-## Rush01 [[subject]](https://github.com/mdubus/piscine-ocaml/blob/master/rush01/rush01.en.pdf) [0 /100]
+## Rush01 [[subject]](https://github.com/mdubus/piscine-ocaml/blob/master/rush01/rush01.en.pdf) [106 /100]
 
 48 hours to build a Tamagotchi
