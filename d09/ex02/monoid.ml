@@ -45,15 +45,15 @@ module type Calc =
 module Calc =
   functor (M : MONOID) ->
   struct
-    let add x y = M.add x y
-    let sub x y = M.sub x y
-    let mul x y = M.mul x y
-    let div x y = M.div x y
-    let rec power x n =
+    let add (x:M.element) (y:M.element) = M.add x y
+    let sub (x:M.element) (y:M.element) = M.sub x y
+    let mul (x:M.element) (y:M.element) = M.mul x y
+    let div (x:M.element) (y:M.element) = M.div x y
+    let rec power (x:M.element) n =
       if n <= M.zero1 then M.zero1
       else if n = M.zero2 then x
       else M.mul x (power x (M.sub n M.zero2))
-    let rec fact x =
+    let rec fact (x:M.element) =
       if x <= M.zero1 then M.zero2
       else M.mul x (fact (M.sub x M.zero2))
   end
